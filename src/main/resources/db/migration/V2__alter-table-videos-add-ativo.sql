@@ -1,0 +1,2 @@
+ALTER TABLE VIDEOS ADD ativo tinyint;
+UPDATE VIDEOS SET ativo = 1 WHERE id = 1;
